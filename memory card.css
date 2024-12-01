@@ -1,0 +1,71 @@
+body{
+    background-color:rgb(125, 152, 91);
+    margin: 0%;
+    padding: 0%;
+}
+h3{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(38, 61, 2);
+
+}
+.game{
+    display: grid;
+    grid-template-columns: repeat(4,120px);
+    grid-row-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+#boxer div {
+    margin-top: 3%;
+    margin-bottom: 7%;
+    padding: 10px;
+    height: 150px;
+    width: 80px;
+    border: 10px;
+    border-color: black;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 3rem;
+    color: black;
+    background-color: #e5e5f7;
+
+    
+}
+.cardback{
+    background-color: antiquewhite;
+    opacity: 0.8;
+    background-image:  linear-gradient(135deg, #444cf7 25%, transparent 25%), linear-gradient(225deg, #444cf7 25%, transparent 25%), linear-gradient(45deg, #444cf7 25%, transparent 25%), linear-gradient(315deg, #444cf7 25%, #e5e5f7 25%);
+    background-position:  10px 0, 10px 0, 0 0, 0 0;
+    background-size: 10px 10px;
+    background-repeat: repeat;
+
+}
+#boxer div:hover{
+    cursor:pointer;
+}
+
+.won
+{
+    text-align: center;
+    font-size: 3rem;
+    color:rgb(21, 23, 21);
+    transition: 3s;
+    margin-top: 32%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+
+@media all and(max-width:200px){
+    .won{
+        margin-bottom: 10%;
+
+    }
+
+}
